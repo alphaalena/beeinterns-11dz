@@ -13,5 +13,8 @@ export default {
 <style>
   .header {
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 </style>

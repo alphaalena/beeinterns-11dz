@@ -2,6 +2,7 @@
   <div id="app">
     <header-component>
       <logo/>
+      <input-component placeholder="Search for Products"/>
     </header-component>
     <!--    <divider title="BUSINESS MAILING ADDRESS"/>-->
   </div>
@@ -10,10 +11,12 @@
 <script>
 import headerComponent from './components/header-component.vue'
 import Logo from './components/logo'
+import InputComponent from './components/input-component'
 
 export default {
   name: 'App',
   components: {
+    InputComponent,
     Logo,
     headerComponent
   }

@@ -1,6 +1,5 @@
 <template>
   <img :src="'/' + iconName + '.png'">
-
 </template>
 <script>
 export default {

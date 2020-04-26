@@ -22,5 +22,6 @@ export default {
     width: 100%;
     border: 1px solid #C6C6C5;
     box-sizing: border-box;
+    padding-left: 20px;
   }
 </style>

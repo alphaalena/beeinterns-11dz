@@ -2,10 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto sans-serif;
 }
 .container {
-    width: 970px;
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+}
+.margin-right-big {
+    margin-right: 130px;
+}
+.margin-right-little {
+    margin-right: 27px ;
+}
+.width-input {
+    width: 400px;
 }

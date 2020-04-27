@@ -10,6 +10,6 @@ export default {
 .link {
   text-decoration: none;
   color: #737270;
-  padding-left: 50px;
+  margin-right: 40px;
 }
 </style>

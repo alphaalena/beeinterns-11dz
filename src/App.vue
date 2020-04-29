@@ -60,7 +60,7 @@
           </wrapper-links-component>
         </column-component>
       </row-component>
-      <separator-component class="marginForm margin-bottom"/>
+      <separator-component width-separator class="marginForm margin-bottom"/>
       <row-component>
         <button-component type="flat" class="margin-bottom" margin-center>Terms & Conditions Privacy</button-component>
       </row-component>

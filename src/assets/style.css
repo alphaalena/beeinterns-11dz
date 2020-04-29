@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto sans-serif;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .margin-right-big {
@@ -11,10 +13,53 @@
 .margin-right-little {
     margin-right: 27px ;
 }
+.margin-top{
+    margin-top: 65px;
+}
 .width-input {
     width: 400px;
 }
 .width100 {
     width: 100%;
-    margin: 20px;
 }
+.signature {
+    text-transform: uppercase;
+    color: #007AFF;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.marginForm {
+    margin-top: 20px;
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
+.indent {
+    padding-left: 40px;
+    color: #000000;
+}
+.flex-1 {
+    flex: 1;
+}
+.flex-2 {
+    flex: 2;
+}
+.flex-3 {
+    flex: 3;
+}
+.flex-4 {
+    flex: 4;
+}
+.heading-footer {
+    margin-top: 100px;
+
+}
+.heading-main {
+    margin: 40px auto 0;
+    text-align: center;
+}
+.margin-right {
+    padding-left: 70px;
+}
+

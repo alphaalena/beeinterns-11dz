@@ -1,9 +1,13 @@
 <template>
-  <a  class="link" href="#"><p><slot/></p></a>
+  <a  class="link" href="#" link-black="linkBlack" is-active="isActive"><p><slot/></p></a>
 </template>
 <script>
 export default {
-  name: 'linkComponent'
+  name: 'linkComponent',
+  props: {
+    isActive: Boolean,
+    linkBlack: Boolean
+  }
 }
 </script>
 <style>
@@ -12,4 +16,10 @@ export default {
   color: #737270;
   margin-right: 40px;
 }
+  [link-black] {
+    color: #1C1C1B;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
 </style>

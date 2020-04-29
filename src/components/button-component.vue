@@ -1,5 +1,5 @@
 <template>
-  <button class="button" :class="type" :left-flat="leftFlat" :is-active="isActive">
+  <button class="button" :class="type" :left-flat="leftFlat" :is-active="isActive" :margin-center="marginCenter">
     <slot/>
   </button>
 </template>
@@ -12,6 +12,7 @@ export default {
       default: 'outline'
     },
     leftFlat: Boolean,
+    marginCenter: Boolean,
     isActive: Boolean
   }
 }
@@ -51,5 +52,8 @@ export default {
   }
   [is-active].flat{
     color: #007AFF;
+  }
+  [margin-center] {
+    margin: 0 auto;
   }
 </style>

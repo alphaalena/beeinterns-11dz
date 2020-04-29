@@ -12,8 +12,6 @@ export default {
   .heading {
     font-size: 26px;
     color: #000000;
-    text-align: center;
-    margin: auto;
-    margin-top: 40px;
-  }
+    ;
+    }
 </style>

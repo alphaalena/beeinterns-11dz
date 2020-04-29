@@ -1,5 +1,5 @@
 <template>
-  <img :src="'/' + iconName + '.png'">
+  <img  class="icon" :src="'/' + iconName + '.png'">
 </template>
 <script>
 export default {
@@ -13,5 +13,8 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
+  .icon {
+    margin-right: 13px;
+  }
 </style>

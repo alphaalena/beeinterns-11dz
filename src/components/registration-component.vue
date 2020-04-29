@@ -14,5 +14,7 @@ export default {
     border: 1px solid #C6C6C5;
     box-sizing: border-box;
     border-radius: 5px;
+    padding: 21px 21px 50px;
+    align-items: start;
   }
 </style>
